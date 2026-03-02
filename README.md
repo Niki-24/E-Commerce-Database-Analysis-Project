@@ -63,7 +63,7 @@ FROM orders
 WHERE status = 'Delivered';
 ```
 4. **Show order_id with customer name.**
-   ```sql
+```sql
   SELECT o.order_id, c.name
   FROM orders o
   JOIN customers c
@@ -71,11 +71,11 @@ WHERE status = 'Delivered';
 ```
 5. **Show customer name with total number of orders.**
 ```sql
-SELECT c.name,count(o.order_id) as total_number_orders
-FROM orders o
-JOIN Customers c 
-ON o.customer_id = c.customer_id 
-GROUP BY c.name, c.customer_id;
+  SELECT c.name,count(o.order_id) as total_number_orders
+  FROM orders o
+  JOIN Customers c 
+  ON o.customer_id = c.customer_id 
+  GROUP BY c.name, c.customer_id;
 ``` 
 6.**Find total revenue per customer.**
 ```sql
