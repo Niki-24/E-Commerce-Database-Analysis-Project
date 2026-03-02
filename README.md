@@ -17,14 +17,14 @@ The project includes 5 tables:
 - Payments
 ---
 # 📊 Business Questions Solved
-- 1. Customers from Delhi
-- 2. Electronics products list
-- 3. Delivered orders
-- 4. Total orders per customer
-- 5. Revenue per customer
-- 6. Top spending customer
-- 7. Most sold product
-- 8. Total quantity sold per product
+1. Customers from Delhi
+2. Electronics products list
+3. Delivered orders
+4. Total orders per customer
+5. Revenue per customer
+6. Top spending customer
+7. Most sold product
+8. Total quantity sold per product
 --- 
 # 🛠 Skills Demonstrated
 - SQL Joins (INNER JOIN, LEFT JOIN)
