@@ -64,10 +64,10 @@ WHERE status = 'Delivered';
 ```
 4. **Show order_id with customer name.**
    ```sql
-SELECT o.order_id, c.name
-FROM orders o
-JOIN customers c
-on o.customer_id = c.customer_id ; 
+  SELECT o.order_id, c.name
+  FROM orders o
+  JOIN customers c
+  on o.customer_id = c.customer_id ;
 ```
 5. **Show customer name with total number of orders.**
 ```sql
